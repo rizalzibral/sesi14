@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan JQUERY 01</title>
+</head>
+<body>
+
+    <h3>judul</h3>
+    <div id="pesan">isi pesan</div>
+    <div class="pesan">isi pesan</div>
+
+    <h5>judul</h5>
+    <div id="kita">nama kita</div>
+    <div class="punya">kita punya</div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#pesan").html("isi yang baru");
+            $(".pesan").html("isi kelas yang baru");
+            $("h3").html("belajar jQUERY");
+            $("#kita").html("Nama");
+            $(".punya").html("Rizal Zibral");
+            $("h5").html("HALLO");
+            
+        });
+    </script>
+
+    
+
+</body>
+</html>
